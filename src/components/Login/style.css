@@ -1,0 +1,45 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+input{
+    width: 177px;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  button{
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    width: 87px;
+    box-shadow: #625f5f 0px 4px 1px 0px;
+    margin: 5px auto 10px;
+  }
+  
+  button:active{
+    box-shadow: 0px 0px 0px 0px, inset rgb(36, 36, 36) 0px 1px 1px 0.5px;
+    transform: translateY(3px);
+  }
+
+
+  @media screen and (min-width: 768px) {
+
+    input{
+      width: 275px;
+    font-size: 18px;
+    }
+  
+    button{
+      padding: 14px;
+      font-size: 17px;
+      width: 125px;
+    }
+    
+  }
+  
+  
