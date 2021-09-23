@@ -9,10 +9,7 @@ export default function Desplay ({msg, data}) {
            typeof msg === 'string'? 
            <div className="invalida"> Requisição inválida! </div> 
            : data !== '' ?  <div className="valida"> Requisição feita com sucesso!</div> : <></>
-        
         }
-
-        {console.log(msg)}
         </>
         
     )

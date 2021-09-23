@@ -6,9 +6,6 @@ import './style.css'
 
 export default function Login () {
 
-    
-    
-    
     const [value, setValue] = useState('')
     const[senha, setSenha] = useState('')
     const[er, setEr] = useState(false)
@@ -24,8 +21,7 @@ export default function Login () {
         }
         axios.post('https://kenzieshop.herokuapp.com/sessions/', formData)
         .then((response) =>  setData(response)).catch((err)=> setEr(err.message))
-
-        
+  
     }
 
     return(
